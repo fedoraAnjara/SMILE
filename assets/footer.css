@@ -1,0 +1,72 @@
+#footer{
+    margin-top: 6dvh;
+    padding: 4dvh 1dvw;
+    background: #efefef;
+    position: relative;
+}
+#footer .social-links img{
+    width: 4dvw;
+    height: 5dvh;
+}
+#footer .footer-left img{
+    width: 1dvw;
+    height: 2dvh;
+}
+#footer .social-links .fb{
+    width: 5dvw;
+    height: 6dvh;
+}
+#footer .social-links .ig{
+    width: 3dvw;
+    height: 4dvh;
+    margin-bottom: 1dvh;
+}
+#footer .social-links .x{
+    margin-bottom: 0.5dvh;
+    margin-left: 0.8dvw;
+}
+#footer .social-links .youtube{
+    width: 5.5dvw;
+    height: 6dvh;
+    margin-left: -0.5dvw;
+}
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left,.footer-right{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.footer-right{
+    text-align: right;
+}
+.footer-row h1{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.footer-row p{
+    line-height: 35px;
+    font-size: 1.1rem;
+}
+.social-links{
+    text-align: center;
+}
+.social-links p{
+    font-size: 12px;
+    margin-top: 1dvh;
+}
+@media screen and (max-width: 770px){
+    .footer-left,.footer-right{
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+    #footer .footer-left img{
+        display: none;
+    }
+}
