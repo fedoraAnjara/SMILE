@@ -43,17 +43,18 @@
 .nav-menu{
     background-color: rgba(0, 0, 0, 0.897);
     position: absolute;
-    padding-left: 4dvw;
+    /* padding-left: 4dvw; */
     top: 0;
-    left: 65dvw;
+    /* left: 65dvw; */
     right: 0;
-    bottom: -100dvh;
-    border-radius: 15px;
+    /* bottom: -100dvh; */
+    width: 35vw;
 }
 .nav-item a, .show{
     color: white;
     line-height: 7dvh;
     padding-left: 1.5rem;
+    font-size: 2.5vw;
 }
 .show{
     cursor: pointer;
@@ -79,6 +80,7 @@
     .nav-menu{
         width: max-content;
         right: 0;
+        transition: ease-in-out;
     }
 
 }
@@ -154,7 +156,7 @@
     color: white;
     font-weight: 400;
     outline: none;
-    box-shadow: inset 300px 0 0 0 black;
+    box-shadow: inset 300px 0 0 0 rgb(197, 185, 185);
 }
 
 @media screen and (max-width: 768px) {
