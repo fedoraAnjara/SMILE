@@ -48,13 +48,12 @@
     /* left: 65dvw; */
     right: 0;
     /* bottom: -100dvh; */
-    width: 35vw;
+    width: 30vw;
 }
 .nav-item a, .show{
     color: white;
     line-height: 7dvh;
     padding-left: 1.5rem;
-    font-size: 2.5vw;
 }
 .show{
     cursor: pointer;
@@ -170,6 +169,14 @@
         padding-top: 10dvh;
         padding-bottom: 5dvh;
     }
+
+    .nav-item a, .show{
+        color: white;
+        line-height: 7dvh;
+        padding-left: 1.5rem;
+        font-size: 2.5vw;
+    }
+
     .icon{
         position: fixed;
         top: 2.5dvh;
