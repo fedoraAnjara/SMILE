@@ -48,7 +48,7 @@
     /* left: 65dvw; */
     right: 0;
     /* bottom: -100dvh; */
-    width: 30vw;
+    width: 100%;
 }
 .nav-item a, .show{
     color: white;
@@ -174,7 +174,7 @@
         color: white;
         line-height: 7dvh;
         padding-left: 1.5rem;
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
 
     .icon{
